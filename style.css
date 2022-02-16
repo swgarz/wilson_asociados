@@ -38,11 +38,21 @@ ul li {
     color: rgba(0,0,0,.55);
     margin: 10px;
 }
+
+
 @media (max-width: 600px) {
     .main-text{
-        margin: 0px;
+        margin: 30px;
     }
     .container .container-fluid img{
         margin-left: 0em;
+    }
+    .wrap{
+        margin-top: 10em;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: center;
     }
   }
