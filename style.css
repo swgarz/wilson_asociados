@@ -38,3 +38,11 @@ ul li {
     color: rgba(0,0,0,.55);
     margin: 10px;
 }
+@media (max-width: 600px) {
+    .main-text{
+        margin: 0px;
+    }
+    .container .container-fluid img{
+        margin-left: 0em;
+    }
+  }
