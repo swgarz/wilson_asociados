@@ -48,11 +48,10 @@ ul li {
         margin-left: 0em;
     }
     .wrap{
-        margin-top: 10em;
+        margin-top: 15em;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 10px;
         justify-content: center;
     }
   }
