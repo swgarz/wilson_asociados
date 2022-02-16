@@ -85,7 +85,7 @@ section{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 30em;
+        height: 15em;
         flex-wrap: wrap;
     }
     .quienes-somos-leon{
