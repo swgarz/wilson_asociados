@@ -8,6 +8,11 @@
 .container .container-fluid img{
     margin-left: 6em;
 }
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    /* flex-basis: auto; */
+    margin-left: 10em;
+}
 .main-component{
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +42,24 @@ ul li {
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.55);
     margin: 10px;
+}
+.quienes-somos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30em;
+}
+.quienes-somos-leon{
+    width: 50%;
+}
+.quienes-somos-leon h3{
+    padding: 2em;
+}
+section{
+    width: 90%;
+    background:#E0E0E0;
+    margin: 0 auto;
+    margin-top: 10em;
 }
 
 
