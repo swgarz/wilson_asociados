@@ -169,5 +169,28 @@ h4{
         margin: 0 auto;
         margin-top: 5em;
     }
+    .fila1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fila1 .imagen1 {
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .fila1 .imagen2 {
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .fila1 .imagen3 {
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .servicios{
+        height: 142em;
+        top: 85em;
+    }
    
   }
