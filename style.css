@@ -88,5 +88,11 @@ section{
         height: 68em;
         flex-wrap: wrap;
     }
+    .quienes-somos-leon{
+        width: 100%;
+    }
+    .quienes-somos-leon h3{
+        padding: 5px;
+    }
    
   }
