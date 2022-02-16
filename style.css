@@ -92,13 +92,14 @@ section{
         width: 100%;
     }
     .quienes-somos-leon h3{
-        padding: 10px;
+        padding: 15px;
     }
     .quienes-somos-leon p{
         margin-bottom: 1px;
     }
     .quienes-somos img{
         width: 90%;
+        margin-top: 10px;
     }
    
   }
