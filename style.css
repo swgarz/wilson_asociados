@@ -19,6 +19,8 @@
 .main{
     display: flex;
     flex-wrap: wrap;
+    font-size: Merriweather;
+    font-size: 1em;
 }
 .main-text{
     margin: 92px;
