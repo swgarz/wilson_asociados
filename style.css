@@ -9,10 +9,9 @@
     margin-left: 6em;
 }
 .navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    /* flex-basis: auto; */
+
     margin-left: 10em;
-}
+} 
 .main-component{
     display: flex;
     flex-wrap: wrap;
