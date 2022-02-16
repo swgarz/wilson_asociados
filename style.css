@@ -81,5 +81,12 @@ section{
         max-width: 100%;
         height: auto;
     }
+    .quienes-somos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 68em;
+        flex-wrap: wrap;
+    }
    
   }
