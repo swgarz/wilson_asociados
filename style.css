@@ -54,5 +54,9 @@ ul li {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .fluid-image {
+        max-width: 100%;
+        height: auto;
+    }
    
   }
