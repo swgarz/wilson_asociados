@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     font-size: Merriweather;
     font-size: 1em;
+    position: relative;
 }
 .main-text{
     margin: 92px;
@@ -49,6 +50,7 @@ ul li {
     justify-content: space-around;
     align-items: center;
     height: 30em;
+    
 }
 .quienes-somos-leon{
     width: 50%;
@@ -61,6 +63,60 @@ section{
     background:#E0E0E0;
     margin: 0 auto;
     margin-top: 10em;
+}
+.servicios{
+    background-color: #000;
+    color: #fafafa;
+    height: 100em;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60em;
+    z-index: -1;
+    
+}
+.servicios h3{
+    margin-top: 15em;
+    padding: 1em;
+}
+.derecho-trabajo{
+    width: 68%;
+    padding: 1em;
+}
+.balanza{
+    width: 30%;
+}
+.balanza img{
+    border-radius: 50%;
+    width: 100%;
+}
+.fila1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.fila1 .imagen1 {
+    width: 33%;
+    display: flex;
+    height: fit-content;
+}
+.fila1 .imagen2 {
+    width: 33%;
+    display: flex;
+    height: fit-content;
+}
+.fila1 .imagen3 {
+    width: 33%;
+    display: flex;
+    height: fit-content;
+}
+.fila1 .imagen1 span{
+    color: #fafafa;
+}
+h4{
+    padding: 5px;
 }
 
 
