@@ -85,14 +85,14 @@ section{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 68em;
+        height: 60em;
         flex-wrap: wrap;
     }
     .quienes-somos-leon{
         width: 100%;
     }
     .quienes-somos-leon h3{
-        padding: 1em;
+        padding: 2px;
     }
     .quienes-somos-leon p{
         margin-bottom: 1px;
