@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: auto;
+}
+.container .container-fluid img{
+    margin-left: 6em;
+}
+.main-component{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-text{
+    margin: 92px;
+}
+.wrap{
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    color: white;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    margin: 10px;
+}
