@@ -226,6 +226,7 @@ h4{
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 15%;
+        margin-top: 10%;
     }
     .fila1 .imagen2 {
         width: 100%;
@@ -234,6 +235,7 @@ h4{
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 15%;
+        margin-top: 10%;
     }
     .fila1 .imagen3 {
         width: 100%;
@@ -242,13 +244,17 @@ h4{
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 15%;
+        margin-top: 10%;
     }
     .servicios{
         height: 290em;
-        top: 96em;
+        top: 91em;
     }
     .balanza{
         width: 100%;
+    }
+    .balanza img{
+        width: 90%;
     }
     .lawyer img:first-child {
         transform: scaleX(-1);
