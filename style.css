@@ -189,14 +189,14 @@ h4{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 27em;
+        height: 34em;
         flex-wrap: wrap;
     }
     .quienes-somos-leon{
         width: 100%;
     }
     .quienes-somos-leon h3{
-        padding: 15px;
+        padding: 35px;
     }
     .quienes-somos-leon p{
         margin-bottom: 1px;
@@ -248,7 +248,7 @@ h4{
     }
     .servicios{
         height: 306em;
-        top: 99em;
+        top: 96em;
     }
     .balanza{
         width: 100%;
