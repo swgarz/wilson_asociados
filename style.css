@@ -67,13 +67,13 @@ section{
 .servicios{
     background-color: #000;
     color: #fafafa;
-    height: 100em;
+    height: 210em;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 60em;
+    top: 70em;
     z-index: -1;
     
 }
@@ -87,6 +87,7 @@ section{
 }
 .balanza{
     width: 30%;
+    margin-top: 5em;
 }
 .balanza img{
     border-radius: 50%;
@@ -118,6 +119,43 @@ section{
 h4{
     padding: 5px;
 }
+.fila1 .nones{
+    display: none;
+}
+.lawyer{
+    margin-top: 5em;
+}
+.lawyer img:first-child {
+    transform: scaleX(-1);
+    filter: brightness(0.5);
+}
+.lawyer img:last-child {
+    filter: brightness(0.5);
+}
+.contacto{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 8em; 
+
+}
+.contacto .adress{
+    width: 50%;
+}
+.contacto .socrates{
+    width: 50%;
+}
+.direccion{
+    margin-top: 5em;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
 
 
 @media (max-width: 600px) {
