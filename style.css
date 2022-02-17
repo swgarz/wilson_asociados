@@ -92,7 +92,7 @@ section{
 }
 .balanza img{
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
 }
 .fila1{
     display: flex;
