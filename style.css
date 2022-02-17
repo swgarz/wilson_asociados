@@ -75,6 +75,7 @@ section{
     position: absolute;
     top: 70em;
     z-index: -1;
+    width: 100%;
     
 }
 .servicios h3{
@@ -154,6 +155,11 @@ h4{
     justify-content: center;
     align-items: center;
     margin-top: 5em;
+}
+.mapouter {
+    position: relative;
+    height: 350px;
+    width: 100% !important;  
 }
 
 
@@ -236,11 +242,35 @@ h4{
         margin-bottom: 15%;
     }
     .servicios{
-        height: 160em;
+        height: 290em;
         top: 96em;
     }
     .balanza{
         width: 100%;
     }
+    .lawyer img:first-child {
+        transform: scaleX(-1);
+        filter: brightness(0.5);
+        width: 100%;
+    }
+    .lawyer img:last-child {
+        display: none;
+    }
+    .contacto{
+        flex-direction: column;
+    }
+    .contacto .socrates{
+        width: 100%;
+    }
+    .contacto .socrates img{
+        width: 100%;
+    }
+    .mapouter {
+        position: relative;
+        height: 350px;
+        width: 100%;
+        overflow: scroll;        
+    }
+    
    
   }
