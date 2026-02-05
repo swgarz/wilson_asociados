@@ -163,6 +163,7 @@ h4{
     height: 350px;
     width: 100% !important;  
 }
+
 /* Justificar textos principales */
 .main-text,
 .quienes-somos-leon p,
@@ -287,12 +288,18 @@ h4{
         width: 100%;
         overflow: scroll;        
     }
+
+    /* Justificado también en celular (y sin huecos raros) */
     .main-text,
-.quienes-somos-leon p,
-.derecho-trabajo,
-.contacto .adress span {
-  text-align: center;   /* o justify si lo quieres igual */
+    .quienes-somos-leon p,
+    .derecho-trabajo,
+    .contacto .adress span {
+      text-align: justify;
+      text-justify: inter-word;
+      line-height: 1.6;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      overflow-wrap: break-word;
+    }
 }
-    
-   
-  }
